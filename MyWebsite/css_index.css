@@ -1,0 +1,44 @@
+.topbar{
+	background-color: blue;
+	color: white;
+	border: 2px solid rgb(194, 194, 194);
+	border-radius: 26px;
+	padding: 100px;
+	}
+
+	#circle{
+	width: 100px;
+	  height: 100px;
+	  -webkit-border-radius: 25px;
+	  -moz-border-radius: 25px;
+	  border-radius: 50px;
+	  background: lightgray;
+	
+	}
+	.Pic{
+	padding: 1px;
+	color: white;
+	float: left;
+	position: relative;
+	top: 40px;
+	right: 40px;
+	border: 2px solid whitesmoke;
+	}
+	.bar{
+		background-color: rgb(84, 223, 223);
+		width: 100%;
+						
+	}
+	ul.header{
+		list-style-type: none;
+		margin: 1px;
+		padding: 1px;
+		background-color: white;
+		overflow: hidden;
+		
+	}
+	li{
+		float: right;
+		padding: auto;
+
+	}
