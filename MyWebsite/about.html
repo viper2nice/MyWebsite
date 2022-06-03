@@ -4,9 +4,23 @@
 		<script src="https://kit.fontawesome.com/9a58e7f1cb.js" crossorigin="anonymous"></script>
 		<title>LS Brown</title> <!--ths is the tab name-->
 		<meta name="viewport" content="width=device-width, initial-scale=1" /> <!--to make sure view for smartphone-->
+		<link rel="stylesheet" type ="text/css" href="css_index.css">
 	</head>
 	<body>
-		
-		<H1> this is about me </H1>
+		<div class="topbar">
+			<a href="https://www.linkedin.com/in/lascell-brown-173762230/"><i class="fa-brands fa-linkedin"></i></a>
+			<a href="https://github.com/viper2nice"><i class="fa-brands fa-github"></i></a>
+			<a onclick= "Newpage ('index')">Home</a>
+			<button class="dropbtn" class="split"><i class="fa-solid fa-bars"></i></button>
+			<div>
+					
+			</div>
+		</div>
+		<H1> About me page </H1>
 	</body>
+	<script>
+		function Newpage(x){
+        location.href = x + ".html"
+		}
+	</script>
 </html>

@@ -1,24 +1,77 @@
 .topbar{
 	background-color: rgb(50, 46, 46);
 	overflow: hidden;
+	position: relative;
+	
+	
 /* border: 2px solid rgb(194, 194, 194); */
 }
 /* style the link in topbar*/
 .topbar a{
 	float: right;
 	text-align: center;
-	color: white;
+	color: rgb(204, 204, 204);
 	padding: 15px 15px;
 	font-size: 22px;
 }
-.topbar a:hover{
+.topbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus{
 	background-color: turquoise;
 	color: black;
 }
-	.topbar button{
+/* .topbar button{
 	float: left;
 
+} */
+
+.dropdown{
+	/* position: relative; */
+	float: left;
+	overflow:hidden
 }
+
+.dropdown-content{
+	display: none; 
+	position: absolute; 
+	background-color: black;
+	min-width: 8px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	
+}
+.dropdown-content a:hover {
+	background-color: #ddd;
+  }
+
+.dropdown-content a{
+	color: black;
+	float: none;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropbtn{
+	background-color: black;
+	color: rgb(204, 204, 204);
+	padding: 15px 15px;
+	font-size: 22px;
+	border: none;
+	
+	
+}
+
+.dropbtn a:hover{
+	background-color: red;
+}
+
+.show{
+	display: block;
+}
+
+
+
+
 
 
 #circle{
@@ -57,31 +110,10 @@ li{
 	padding: 5px;
 
 }
-.dropbtn{
-	background-color: black;
-	color: white;
-	padding: 16px;
-	font-size: 16px;
-	border: none;
-}
-.dropdown{
-	position: relative;
-	display: inline-block;
-}
-.dropdown-content{
-	display: none;
-	position: absolute;
-	background-color: #f1f1f1;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-}
-.dropdown-content a{
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-}
-.dropdown-content a:hover{
 
-}
+
+
+
+
+
+

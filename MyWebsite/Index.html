@@ -12,15 +12,19 @@
 		<div class="topbar">
 			<a href="https://www.linkedin.com/in/lascell-brown-173762230/"><i class="fa-brands fa-linkedin"></i></a>
 			<a href="https://github.com/viper2nice"><i class="fa-brands fa-github"></i></a>
-			<a href= "about.html">about</a>
-			<button class="dropbtn" class="split"><i class="fa-solid fa-bars"></i></button>
-				<div>
-
+			<a onclick= "Newpage ('about')">about</a>
+			<div class="dropdown">
+				<!-- i might get rid of the button and just put it all on the navr bar. will come back to it latter  -->
+				<button class="dropbtn" onclick="DropDown_menu()"><i class="fa-solid fa-bars"></i></button> 
+				<div class="dropdown-content" id="myDropdownMenu">
+					<a href="">Aboutdfdfdf</a>
+					<a href="">Conteatdfdfdfdfd</a>
 				</div>
+			</div>
 		</div>
 
 		<div style="background-color: green;">
-			
+			hi
 		</div>
 
 		<!-- <div style="float:right;">
@@ -39,12 +43,26 @@
 			<div id="circle" class="Pic"></div>
 		</div class="">  -->
 		
-		
-	</body>
 	<script>
 		function Newpage(x){
-        location.href = x + ".html"
-}
+		location.href = x + ".html";
+		}
+
+		// when the use click on the button. the menu will show
+		function DropDown_menu(){
+			document.getElementById("myDropdownMenu").classList.toggle("show");
+		}
+
+		window.onclick = function(e){
+			if(!e.target.matches('.dropbtn')){
+			var myDropdownMenu = document.getElementById("myDropdownMenu");
+				if(myDropdownMenu.classList.contains('show')){
+					myDropdownMenu.classList.remove('show');
+				}
+			}
+		}
 	</script>
+	</body>
+
 	
 </html>
