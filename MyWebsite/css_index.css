@@ -1,7 +1,13 @@
+body{
+	margin: 0;
+	background-color: black;
+}
+
 .topbar{
 	background-color: rgb(50, 46, 46);
 	overflow: hidden;
 	position: relative;
+	flex:auto;
 	
 	
 /* border: 2px solid rgb(194, 194, 194); */
