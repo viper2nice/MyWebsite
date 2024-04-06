@@ -1,6 +1,8 @@
 body{
 	margin: 0;
 	background-color: black;
+	align-items: center; 
+	justify-content: center;
 }
 
 .topbar{
@@ -32,10 +34,12 @@ width: 20%;
 display: block
 }
 
-
-
+/* skills */
 .skill_contaier{
-display:block;
+display:flex;
+margin-left: auto;
+max-width: fit-content;
+margin-right: auto;
 
 }
 .skill_contaier div{
@@ -43,8 +47,25 @@ width: 50%;
 text-align:right;
 font-size:40px;
 }
+/* end skills */
 
+/* about */
 
+.about_container{
+
+max-width: fit-content; 
+margin-left: auto; 
+margin-right: auto; 
+margin-right: auto; 
+
+}
+.about_container p{
+text-align:center;
+margin-right: 200px;
+margin-left: 200px;
+
+}
+/* end about */
 
 
 /* .topbar button{
