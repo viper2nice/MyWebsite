@@ -9,9 +9,11 @@
 	</head>
 
 	<body>
+		<div id="my_name" s>
+			<h1 style="color: white; font-size: 110px; text-align: center; " >I'm Lascell Brown.</h1>
+			<h1 style="color: white; font-size: 110px; text-align: center; "> Im a software Engineer</h1>
+		</div>
 		
-		<h1 style="color: white; font-size: 110px; text-align: center; " >I'm Lascell Brown.</h1>
-		<h1 style="color: white; font-size: 110px; text-align: center; "> Im a software Engineer</h1>
 
 			<!-- main top bar -->
 		 	<div class="topbar"> <!--make it sticky when we scroll pass it and untick when we go abve it -->
@@ -141,6 +143,16 @@
 				}
 			}
 		}
+
+		let myname = document.getElementById("my_name")
+		let opacity =0;
+		let FadeIn = setInterval(() => {
+			if (opacity>= 1){
+				clearInterval(FadeIn);
+			}
+			myname.style.opacity = opacity;
+			opacity+= 0.01;
+		}, 20);
 		</script>
 	</body>
 

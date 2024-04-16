@@ -5,11 +5,17 @@ body{
 	justify-content: center;
 }
 
+#my_name{
+	margin-bottom: 435px;
+	margin-top: 435px;
+	opacity: 0;
+}
 .topbar{
 	background-color: rgb(50, 46, 46);
 	overflow: hidden;
-	position: relative;
 	flex:auto;
+	top: 0;
+	position: sticky;
 	
 	
 /* border: 2px solid rgb(194, 194, 194); */
@@ -83,6 +89,8 @@ margin-left: 200px;
 	display: grid;
 	grid-gap: 15px;
 	grid-template-columns: 1fr;
+	margin-right: 15px;
+	margin-left: 15px;
 }
 
 #Contact .contents .info .card {
