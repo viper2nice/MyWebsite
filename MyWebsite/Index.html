@@ -6,13 +6,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" /> <!--to make sure view for smartphone-->
 		<link rel="stylesheet" type ="text/css" href="css_index.css">
 		<script src="Main_S.js"></script>
+
+
+	
 	</head>
 
 	<body>
-		<div id="my_name" s>
+	
+		<div id="header finisher-header" style="margin-bottom: 435px; margin-top: 435px; opacity: 0;">
 			<h1 style="color: white; font-size: 110px; text-align: center; " >I'm Lascell Brown.</h1>
 			<h1 style="color: white; font-size: 110px; text-align: center; "> Im a software Engineer</h1>
-		</div>
+		</div> 
 		
 
 			<!-- main top bar -->
@@ -144,7 +148,7 @@
 			}
 		}
 
-		let myname = document.getElementById("my_name")
+		let myname = document.getElementById("header finisher-header")
 		let opacity =0;
 		let FadeIn = setInterval(() => {
 			if (opacity>= 1){
@@ -153,6 +157,8 @@
 			myname.style.opacity = opacity;
 			opacity+= 0.01;
 		}, 20);
+
+		
 		</script>
 	</body>
 
