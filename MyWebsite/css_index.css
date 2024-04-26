@@ -1,5 +1,5 @@
 body{
-	margin: auto; 
+	margin: 0; 
 	 /* background-color: black;   */
 	 /* align-items: center; 
 	justify-content: center; */
@@ -84,11 +84,20 @@ body{
 
  #header {
 	margin-bottom: 17%; 
-	margin-top: 15%;  
+	margin-top: 15%;   
 	opacity: 0;
 	letter-spacing: 1.1em; 
 	color: white;
 	
+	
+ }
+ #header .header-section h1{
+	letter-spacing: .3em;
+	color: black;
+	flex: auto;
+	font-size: 110px; 
+	text-align: center;
+	width: auto;
 	
  }
 
@@ -128,7 +137,9 @@ body{
 	color: black;
 }
 
-
+#main_container{
+	align-items: center;	
+}
 
 .AboutPic{
 margin-left: auto;
@@ -136,6 +147,24 @@ margin-right: auto;
 width: 20%;
 display: block
 }
+/* about */
+
+.about_container{
+
+	max-width: fit-content; 
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-right: auto; 
+	
+	}
+	.about_container p{
+	text-align:center;
+	margin-right: 200px;
+	margin-left: 200px;
+	
+	}
+	/* end about */
+
 
 /* skills */
 .skill_contaier{
@@ -152,27 +181,9 @@ font-size:40px;
 }
 /* end skills */
 
-/* about */
-
-.about_container{
-
-max-width: fit-content; 
-margin-left: auto; 
-margin-right: auto; 
-margin-right: auto; 
-
-}
-.about_container p{
-text-align:center;
-margin-right: 200px;
-margin-left: 200px;
-
-}
-/* end about */
-
 /* ==================Contant=============== */
 #Contact{
-	padding: 20px;
+	padding: 15px;
 	color: white;
 	background-color: rgb(50, 46, 46);
 }
@@ -216,15 +227,14 @@ margin-left: 200px;
 }
 
  iframe{
- 	width:98%; 
+ 	width:95%; 
 	height: 450px;
 	margin-top: 20px;
-	margin-left: 15px;
-	margin-right: 15px;
-	
+	margin-left: 2.5%;
+ 
 	
 } 
-
+/* ==================Contant=============== */
 @media (min-width: 100px) {
 	#Contact .contents .info{
 		grid-template-columns: repeat(2, 1fr);
@@ -239,7 +249,106 @@ margin-left: 200px;
 		margin-bottom: 30px;
 	}
 }
+/* 600px, 601px, 768px, 992px, 1200px*/
+@media screen and (max-width:600px){
+	.topbar{
+		background-color: rgb(50, 46, 46);
+		overflow: hidden;
+		flex:auto;
+		top: 0;
+		position: sticky;
+		width: 100%;
+	}
+	#header .header-section h1{
+		letter-spacing: .3em;
+		color: green;
+		flex: auto;
+		font-size: 2.0vw;  
+		text-align: center;
+		width: 100%;
+	 }
+}
 
+@media screen and (min-width:601px){
+	.topbar{
+		background-color: rgb(50, 46, 46);
+		overflow: hidden;
+		flex:auto;
+		top: 0;
+		position: sticky;
+		width: 100%;
+	}
+	#header .header-section h1{
+		letter-spacing: .3em;
+		color: white;
+		flex: auto;
+		font-size: 1.5vw; 
+		text-align: center;
+		width: auto;
+		
+	 }
+}
+
+@media screen and (min-width:768px){
+	.topbar{
+		background-color: rgb(50, 46, 46);
+		overflow: hidden;
+		flex:auto;
+		top: 0;
+		position: sticky;
+		width: 100%;
+	}
+	#header .header-section h1{
+		letter-spacing: .3em;
+		color: black;
+		flex: auto;
+		font-size: 10.5vw; 
+		text-align: center;
+		width: 100%;
+		
+	 }
+}
+
+@media screen and (min-width:992px){
+	.topbar{
+		background-color: rgb(50, 46, 46);
+		overflow: hidden;
+		flex:auto;
+		top: 0;
+		position: sticky;
+		width: 100%;
+	}
+	#header .header-section h1{
+		letter-spacing: .3em;
+		color: blue;
+		flex: auto;
+		font-size: 10.5vw;; 
+		text-align: center;
+		width: auto;
+		
+	 }
+}
+
+@media screen and (min-width:1200px){
+	.topbar{
+		background-color: rgb(50, 46, 46);
+		overflow: hidden;
+		flex:auto;
+		top: 0;
+		position: sticky;
+		width: 100%;
+	}
+	#header .header-section h1{
+		letter-spacing: .3em;
+		color: yellow;
+		flex: auto;
+		font-size: 110px; 
+		text-align: center;
+		width: auto;
+		
+	 }
+}
+/* 600px, 601px, 768px, 992px, 1200px*/
  
 
 /* ==================Contant End =============== */
