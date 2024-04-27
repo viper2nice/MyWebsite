@@ -112,6 +112,8 @@ body{
 
 /* ==================header end============== */
 
+
+/* ==================topbar=============== */
 .topbar{
 	background-color: rgb(50, 46, 46);
 	overflow: hidden;
@@ -119,12 +121,8 @@ body{
 	top: 0;
 	position: sticky;
 	width: 100%;
-	
-	
-/* border: 2px solid rgb(194, 194, 194); */
 }
 
-/* style the link in topbar*/
 .topbar a{
 	float: right;
 	text-align: center;
@@ -141,32 +139,29 @@ body{
 	align-items: center;	
 }
 
-.AboutPic{
-margin-left: auto;
-margin-right: auto;
-width: 20%;
-display: block
+/* ==================topbar=============== */
+
+/* ==================about=============== */
+#About .about_container .contents p{
+	color: white;
+	font-size: 30px;
+	text-align: center; 
+	margin-left: 15%;
+	margin-right: 15%;
+	
 }
-/* about */
 
-.about_container{
+#About .about_container .AboutPic{
 
-	max-width: fit-content; 
-	margin-left: auto; 
-	margin-right: auto; 
-	margin-right: auto; 
-	
-	}
-	.about_container p{
-	text-align:center;
-	margin-right: 200px;
-	margin-left: 200px;
-	
-	}
-	/* end about */
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	display: block
+}
+/* ==================about=============== */
 
 
-/* skills */
+/* ==================skills=============== */
 .skill_contaier{
 display:flex;
 margin-left: auto;
@@ -179,7 +174,7 @@ width: 50%;
 text-align:right;
 font-size:40px;
 }
-/* end skills */
+/* ==================skills=============== */
 
 /* ==================Contant=============== */
 #Contact{
