@@ -74,42 +74,14 @@ body{
 /* ==================Animated BG============== */
 
 
-@media screen and (min-height:1080px) {
-	body{
-		width: 100%;
-	}
-	
-}
+
 /* ==================header============== */
 
  #header {
-	margin-bottom: 17%; 
-	margin-top: 15%;   
+	margin-bottom: 20%; 
+	margin-top: 21%;   
 	opacity: 0;
-	letter-spacing: 1.1em; 
-	color: white;
-	
-	
  }
- #header .header-section h1{
-	letter-spacing: .3em;
-	color: black;
-	flex: auto;
-	font-size: 110px; 
-	text-align: center;
-	width: auto;
-	
- }
-
- @media screen and (min-height:1080px) {
-	#header{
-		margin-top: 38vh;
-		margin-bottom: 38vh;
-		color: white; 
-	}
-} 
-
-
 /* ==================header end============== */
 
 
@@ -144,19 +116,19 @@ body{
 /* ==================about=============== */
 #About .about_container .contents p{
 	color: white;
-	font-size: 30px;
+	font-size: 20px;
 	text-align: center; 
 	margin-left: 15%;
 	margin-right: 15%;
+	letter-spacing: .1em;
 	
 }
 
 #About .about_container .AboutPic{
-
 	margin-left: auto;
 	margin-right: auto;
-	width: 20%;
-	display: block
+	width: 25%;
+	display: block;
 }
 /* ==================about=============== */
 
@@ -229,7 +201,7 @@ font-size:40px;
  
 	
 } 
-/* ==================Contant=============== */
+
 @media (min-width: 100px) {
 	#Contact .contents .info{
 		grid-template-columns: repeat(2, 1fr);
@@ -244,6 +216,8 @@ font-size:40px;
 		margin-bottom: 30px;
 	}
 }
+/* ==================Contant=============== */
+
 /* 600px, 601px, 768px, 992px, 1200px*/
 @media screen and (max-width:600px){
 	.topbar{
@@ -256,7 +230,7 @@ font-size:40px;
 	}
 	#header .header-section h1{
 		letter-spacing: .3em;
-		color: green;
+		color: white;
 		flex: auto;
 		font-size: 2.0vw;  
 		text-align: center;
@@ -277,7 +251,7 @@ font-size:40px;
 		letter-spacing: .3em;
 		color: white;
 		flex: auto;
-		font-size: 1.5vw; 
+		font-size: 2.0vw;
 		text-align: center;
 		width: auto;
 		
@@ -295,9 +269,9 @@ font-size:40px;
 	}
 	#header .header-section h1{
 		letter-spacing: .3em;
-		color: black;
+		color: white;
 		flex: auto;
-		font-size: 10.5vw; 
+		font-size: 2.0vw; 
 		text-align: center;
 		width: 100%;
 		
@@ -315,9 +289,9 @@ font-size:40px;
 	}
 	#header .header-section h1{
 		letter-spacing: .3em;
-		color: blue;
+		color: white;
 		flex: auto;
-		font-size: 10.5vw;; 
+		font-size: 2.0vw; 
 		text-align: center;
 		width: auto;
 		
@@ -335,115 +309,29 @@ font-size:40px;
 	}
 	#header .header-section h1{
 		letter-spacing: .3em;
-		color: yellow;
+		color: white;
 		flex: auto;
-		font-size: 110px; 
+		font-size: 2.0vw; 
 		text-align: center;
 		width: auto;
 		
 	 }
+	 #header {
+		margin-bottom: 22%; 
+		margin-top: 22%;   
+		opacity: 0;
+
+	 }
 }
+@media screen and (min-height:1080px) {
+	body{
+		width: 100%;
+	}
+	
+}
+	
 /* 600px, 601px, 768px, 992px, 1200px*/
  
-
-/* ==================Contant End =============== */
-
-
-/* .topbar button{
-	float: left;
-
-} */
-
-/* .dropdown{
-	/* position: relative; 
-	float: left;
-	overflow:hidden
-} */
-
-
-
- /* might just delete if not use for right now. Will surely come back to this later*/
-
-
-
-
-/* .dropdown-content{
-	display: none; 
-	position: absolute; 
-	background-color: black;
-	min-width: 8px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-	
-}
-.dropdown-content a:hover {
-	background-color: #ddd;
-  }
-
-.dropdown-content a{
-	color: black;
-	float: none;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-	text-align: left;
-}
-
-.dropbtn{
-	background-color: black;
-	color: rgb(204, 204, 204);
-	padding: 15px 15px;
-	font-size: 22px;
-	border: none;
-	
-	
-}
-
-.dropbtn a:hover{
-	background-color: red;
-}
-
-.show{
-	display: block;
-} */
-
-
-/* #circle{
-	width: 100px;
-	height: 100px;
-	-webkit-border-radius: 25px;
-	-moz-border-radius: 25px;
-	border-radius: 50px;
-	background: lightgray;
-
-}
-.Pic{
-	padding: 1px;
-	color: white;
-	float: left;
-	position: relative;
-	top: 40px;
-	right: 40px;
-	border: 2px solid whitesmoke;
-}
-.bar{
-	background-color: rgb(84, 223, 223);
-	width: 100%;
-					
-}
-ul.header{
-	list-style-type: none;
-	margin: 1px;
-	padding: 1px;
-	background-color: white;
-	overflow: hidden;
-	
-}
-li{
-	float: right;
-	padding: 5px;
-
-} */
 
 
 
